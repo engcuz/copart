@@ -22,7 +22,7 @@ def calculate_total_cost(bid_price, title_status):
 # --- Streamlit Interface ---
 st.set_page_config(page_title="Copart Estimator", layout="centered")
 
-st.title("Hamza Albernawi")
+st.title("developy by HaMzA ")
 st.title("🚗 Copart Bid Estimator")
 
 

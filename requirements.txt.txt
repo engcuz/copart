@@ -1,0 +1,3 @@
+with open('requirements.txt', 'w') as f:
+    f.write('streamlit')
+files.download('requirements.txt')

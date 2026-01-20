@@ -21,7 +21,10 @@ def calculate_total_cost(bid_price, title_status):
 
 # --- Streamlit Interface ---
 st.set_page_config(page_title="Copart Estimator", layout="centered")
+
+st.title("Hamza Albernawi")
 st.title("🚗 Copart Bid Estimator")
+
 
 bid = st.number_input("Final Bid Price ($)", min_value=0.0, value=5000.0, step=100.0)
 status = st.selectbox("Title Status", ["Clean", "Non-Clean"]).lower()
